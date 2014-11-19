@@ -23,8 +23,7 @@ Thumbs.db
 [Bb]in
 [Dd]ebug*/
 *.lib
-*.nupkg
-*.nuspec
+
 *.suo
 *.sbr
 obj/
