@@ -20,8 +20,6 @@ namespace LeduInfo.Models
         public DbSet<ImgPath> ImgPathstbl { get; set; }
         public DbSet<VoteComments> VoteCommenttbl { get; set; }
         public DbSet<ExternalUserInformation> ExternalUserstbl { get; set; }
-        public DbSet<JsonModel> JsonModeltbl { get; set; }
-        public DbSet<Brands> Brandstbl { get; set; }
         public DbSet <LoginModel>LoginModeltbl { get; set; }
         public DbSet<FileResource> FileResourcetbl { get; set; }
         public DbSet<FileType> FileTypetbl { get; set; }

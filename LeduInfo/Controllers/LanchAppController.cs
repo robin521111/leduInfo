@@ -6,12 +6,12 @@ using System.Web.Mvc;
 
 namespace LeduInfo.Controllers
 {
-    public class LanchAppController : Controller
+    public class LunchAppController : Controller
     {
         //
         // GET: /LanchApp/
 
-        public ActionResult RandomR()
+        public ActionResult DishesChoice()
         {
             return View();
         }

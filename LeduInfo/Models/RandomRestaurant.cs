@@ -17,4 +17,6 @@ namespace LeduInfo.Models
 
         public string Coordinates { get; set; }
     }
+
+
 }

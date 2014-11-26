@@ -11,7 +11,7 @@
 	font-family: inherit;
 	vertical-align: baseline;
 }
-: focus {
+ focus {
 	outline: 0;
 }
 ol,ul {
@@ -79,7 +79,7 @@ i sup {
 .noborder {
 	border: 0!important;
 }
-a,a: link,a: visited,a: hover {
+a,a:link,a:visited,a:hover {
 	color: #68BADA;
 	text-decoration: none;
 	font-weight: bold;
@@ -299,7 +299,7 @@ noscript .message {
 .topnav li.right {
 	float: right;
 }
-.topnav li a,.topnav li a: link,.topnav li a: visited {
+.topnav li a,.topnav li a:link,.topnav li a:visited {
 	padding: 6px 0;
 	color: #447A00;
 	text-decoration: none;
@@ -416,7 +416,7 @@ noscript .message {
 #contentheader h5,.header h5 {
 	color: #555;
 }
-#contentheader .nav li a,#contentheader .nav li a: link,#contentheader .nav li a: visited,.header .nav li a,.header .nav li a: link,.header .nav li a: visited {
+#contentheader .nav li a,#contentheader .nav li a:link,#contentheader .nav li a:visited,.header .nav li a,.header .nav li a:link,.header .nav li a:visited {
 	color: #30D4E8;
 }
 #contentheader .column,.header .column {
@@ -547,7 +547,7 @@ noscript .message {
 	color: white;
 	font-weight: normal;
 }
-#footer .info li a: hover {
+#footer .info li a:hover {
 	background-color: #2D2F30;
 }
 #footer .info li span {

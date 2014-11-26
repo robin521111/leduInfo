@@ -19,11 +19,6 @@ namespace LeduInfo.Controllers
             return View();
         }
 
-        public ActionResult UploadPage()
-        {
-            var JasonModel = db.JsonModeltbl.ToList();
-            return View(JasonModel);
-        }
 
         public ActionResult HeaderImg()
         {

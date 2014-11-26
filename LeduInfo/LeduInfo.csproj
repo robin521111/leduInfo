@@ -16,7 +16,8 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
-    <SilverlightApplicationList>{5D4D6864-0229-467B-90A7-E3A50D12AA13}|..\CommunityDesigner\CommunityDesigner.csproj|ClientBin|False</SilverlightApplicationList>
+    <SilverlightApplicationList>
+    </SilverlightApplicationList>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -228,9 +229,7 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.Helpers.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.30506.0\lib\net40\System.Web.Http.dll</HintPath>
-    </Reference>
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Web.Http.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\AspNetWebApi.Data.4.0.20221.15125\lib\net40\System.Web.Http.Data.dll</HintPath>
@@ -319,11 +318,12 @@
     <Compile Include="Helper\DAL.cs" />
     <Compile Include="Helper\File.cs" />
     <Compile Include="Models\DataBaseModel.cs" />
+    <Compile Include="Models\DiangPingAPI.cs" />
+    <Compile Include="Models\DianPingModel.cs" />
     <Compile Include="Models\FileModel.cs" />
     <Compile Include="Models\House.cs" />
     <Compile Include="Helper\HTMLRender.cs" />
     <Compile Include="Helper\HTMLHelper.cs" />
-    <Compile Include="Models\JsonModel.cs" />
     <Compile Include="Helper\JsonParser.cs" />
     <Compile Include="Helper\JsonHelper.cs" />
     <Compile Include="Models\leduInfoDB.cs" />
@@ -403,6 +403,7 @@
     <Content Include="Content\living-form.css" />
     <Content Include="Content\login-reg.css" />
     <Content Include="Content\mainPage.css" />
+    <Content Include="Content\master.css" />
     <Content Include="Content\mdd_styles.css" />
     <Content Include="Content\plugins\dataTables.bootstrap.css" />
     <Content Include="Content\plugins\metisMenu\metisMenu.css" />
@@ -1119,12 +1120,13 @@
     <Content Include="Views\Admin\DashBoard.cshtml" />
     <Content Include="Views\Shared\Admin_partial.cshtml" />
     <Content Include="Views\Blog\GrayScale.cshtml" />
-    <Content Include="Views\LanchApp\RandomR.cshtml" />
+    <Content Include="Views\LunchApp\DishesChoice.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\themes\" />
     <Folder Include="Images\ImgFolder\Thumbnail\" />
+    <Folder Include="Views\LanchApp\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
